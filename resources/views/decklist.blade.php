@@ -10,9 +10,9 @@
             <x-input-label for="origin" :value="__('Origin')" />
             
             <select class="block mt-1 w-full" name="origin" required="true">
-                <option value="liga">Liga Magic</option>
+                <!-- <option value="liga">Liga Magic</option>
                 <option value="moxfield">Moxfield</option>
-                <option value="goldfish">MTG Goldfish</option>
+                <option value="goldfish">MTG Goldfish</option> -->
                 <option value="delver">Delver</option>
             </select>
             <x-input-error :messages="$errors->get('origin')" class="mt-2" />
@@ -23,9 +23,9 @@
             <x-input-label for="destiny" :value="__('Destiny')" />
             <select class="block mt-1 w-full" name="destiny" required="true">
                 <option value="liga">Liga Magic</option>
-                <option value="moxfield">Moxfield</option>
+                <!-- <option value="moxfield">Moxfield</option>
                 <option value="goldfish">MTG Goldfish</option>
-                <option value="delver">Delver</option>
+                <option value="delver">Delver</option> -->
             </select>
             <x-input-error :messages="$errors->get('destiny')" class="mt-2" />
         </div>
